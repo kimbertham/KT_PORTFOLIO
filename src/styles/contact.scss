@@ -46,6 +46,7 @@
   .c-button {
     width: 105%;
     height: 4vh ;
+    cursor: pointer;
     background-color:rgba(165, 165, 165,0.2);
   }
 }
@@ -61,6 +62,7 @@
   .c-link {
     width: 3vw;
     margin: 1vw;
+    cursor: pointer;
     mix-blend-mode:lighten;
     }
   }

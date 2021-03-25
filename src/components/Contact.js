@@ -7,9 +7,9 @@ state = {
   sent: false
 }
 
-onSubmit = async e => {
+onSubmit = e => {
   e.preventDefault()
-  await emailjs.sendForm(
+  emailjs.sendForm(
     process.env.REACT_APP_service, 
     process.env.REACT_APP_template,
     e.target,
