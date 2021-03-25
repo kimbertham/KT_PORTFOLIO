@@ -20,7 +20,6 @@ onSubmit = async e => {
 
 render() {
   const { sent } = this.state
-  console.log( process.env.REACT_APP_service, )
   return (
 
     <div className='c-cont'>
