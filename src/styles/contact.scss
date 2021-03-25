@@ -1,0 +1,82 @@
+@import './main.scss';
+
+.c-cont {
+  padding-bottom: 10vh;
+}
+
+.c-content{
+  @extend .center;
+  flex-direction: row;
+  margin-top: 30vh;
+
+    .c-title{
+      margin: 0 3vw;
+      opacity: 0.4;
+      font-size: 4vw;
+    }
+}
+
+.c-form {
+  width:  30vw;
+  margin: 2vw;
+
+  * {
+    width: 100%;
+    outline: none;
+    color: white;
+    margin: 3px 0;
+    padding: 0 10px;
+    background-color: transparent;
+    border: 1px solid rgb(108, 108, 108);
+  }
+
+  h2 {
+    border: none;
+    font-style: italic;
+  }
+
+  .c-input{
+  height: 5vh;
+  }
+
+  .c-textarea {
+  height: 25vh;
+  }
+
+  .c-button {
+    width: 105%;
+    height: 4vh ;
+    background-color:rgba(165, 165, 165,0.2);
+  }
+}
+
+
+.link-cont{
+  @extend .center;
+  margin: 5vh ;
+  padding: 10px;
+  border-radius: 50%;
+  background: rgb(60, 60, 60);
+
+  .c-link {
+    width: 3vw;
+    margin: 1vw;
+    mix-blend-mode:lighten;
+    }
+  }
+
+.sent {
+  @extend .center;
+  width: 30vw;
+
+  .status-icon{
+    width: 10vw;
+  }
+
+  p{
+    color: rgb(218, 218, 218);
+  }
+}
+
+
+

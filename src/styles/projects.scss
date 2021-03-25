@@ -1,0 +1,73 @@
+@import './main.scss';
+
+
+
+.p-title {
+  margin-left: 55vw;
+  opacity: 0.3;
+
+  h1 {
+    margin-bottom: -3vh;
+    font-size: 15vh;
+  }
+  p {
+    text-align: center;
+    font-size: 3vh;
+    font-style: italic;
+  }
+}
+
+.p-field {
+  @extend .center;
+  flex-direction: row;
+  margin: 10vh 0;
+
+
+  .p-mov{ 
+      width:30vw;
+      padding: 2vh;
+      border: 1px solid white;
+      filter: grayscale(100%);
+      -webkit-filter: grayscale(100%); 
+  }
+  .p-select {
+    width: 40vw; 
+    padding: 2vh;
+    border: 1px solid white;
+  }
+
+  
+  .p-divide {
+    width:1px;
+    height: 40vh;
+    margin: 0 2vw;
+    border-right: 1px solid rgb(58, 58, 58);
+  }
+  
+  .p-content{
+    @extend .center;
+    width: 30vw;
+    height: 41vh;
+    font-size: 14px;
+
+
+    .p-title-cont{
+      @extend .flex;
+      margin-right: 3vw;
+      align-items: center;
+      justify-content: center;
+
+    .logo {
+      width: 2.5vw;
+      margin: 10px;
+    }
+  }
+  }
+}
+
+.p-icon {
+  width: 2vw;
+  height: 2vw;
+  margin: 2vh;
+  mix-blend-mode: color-burn;
+}

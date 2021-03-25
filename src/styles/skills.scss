@@ -1,0 +1,43 @@
+@import './main.scss';
+
+
+.skills-cont {
+  @extend .center;
+  // border: 2px solid red;
+  height: 90vh;
+  width: 99vw;
+}
+
+.cog-cont{
+  @extend .absolute;
+  width: 100vw;
+  // border: 2px solid red;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+.cog {
+  width: 8vw;
+  opacity: 0.6;
+  margin: 10vh 5vw 0 0;
+}
+}
+
+.s-title {
+  opacity: 0.3;
+
+
+  h1 {
+    font-size: 9vw;
+    // color: #b87677;
+  }
+}
+
+.content{
+  @extend .center;
+  padding: 0 5vw;
+
+  .s-icon {
+    width: 7vw;
+    mix-blend-mode: color-dodge;
+  }
+}
