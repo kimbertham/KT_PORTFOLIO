@@ -38,13 +38,15 @@ const Nosedive = ({ selected, setSelected }) => {
 
           <div className='p-divide'/>
 
-          {selected === 'Nosedive' ?
-            <video src={video} preload="auto"
-              className='p-select' autoPlay muted  onMouseLeave={setSelected}/>
-            :
-            <img src={img} className='p-mov' alt='img'
-              onMouseEnter={() => setSelected('Nosedive')}/>
-          }
+
+          <video src={video} preload="auto"
+            className={selected === 'Nosedive' ? 'p-select' : 'display-none'} 
+            autoPlay muted  onMouseLeave={setSelected}/>
+          
+          <img src={img} alt='img'
+            className={selected !== 'Nosedive' ? 'p-mov' : 'display-none'} 
+            onMouseEnter={() => setSelected('Nosedive')}/>
+
 
         </div>
       </div>

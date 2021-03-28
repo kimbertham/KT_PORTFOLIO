@@ -8,7 +8,7 @@ import logo from '../../styles/assets/projects/movi-rate.jpg'
 
 import Slide from 'react-reveal/Slide'
 
-const MoviRate = ({ selected, setSelected }) =>  {
+const MoviRate = ({ selected, setSelected, setLoading }) =>  {
 
   return (
     <Slide up>
@@ -35,13 +35,21 @@ const MoviRate = ({ selected, setSelected }) =>  {
 
         <div className='p-divide'/>
 
-        {selected === 'Match' ?
-          <video src={video}  preload="auto"
-            className='p-select' autoPlay muted  onMouseLeave={setSelected}/>
-          :
-          <img src={img} className='p-mov' alt='img'
-            onMouseEnter={() => setSelected('Match')}/>
-        }
+      
+        <video src={video}  preload="auto"  autoPlay muted 
+          onLoadStart={() => {
+            console.log('...I am loading...')
+          }}
+          onLoadedData={() => {
+            console.log('Data is loaded!')
+          }}
+          className={selected === 'Match' ? 'p-select' : 'display-none'} 
+          onMouseLeave={setSelected}/>
+          
+        <img className={selected !== 'Match' ? 'p-mov' : 'display-none'} 
+          src={img} alt='img'
+          onMouseEnter={() => setSelected('Match')}/>
+        
 
       </div>
     </Slide>

@@ -34,13 +34,13 @@ const Matchus = ({ selected, setSelected }) => {
 
         <div className='p-divide'/>
 
-        {selected === 'MoviRate' ?
-          <video src={video} preload="auto"
-            className='p-select' autoPlay muted  onMouseLeave={setSelected}/>
-          :
-          <img src={img} className='p-mov' alt='img'
-            onMouseEnter={() => setSelected('MoviRate')}/>
-        }
+        <video src={video} preload="auto"
+          className={selected === 'MoviRate' ? 'p-select' : 'display-none'} 
+          autoPlay muted  onMouseLeave={setSelected}/>
+          
+        <img src={img} alt='img'
+          className={selected !== 'MoviRate' ? 'p-mov' : 'display-none'} 
+          onMouseEnter={() => setSelected('MoviRate')}/>
 
       </div>
     </Slide>

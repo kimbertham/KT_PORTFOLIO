@@ -8,15 +8,21 @@ import MoviRate from './MovieRate'
 
 class Projects extends React.Component {
   state = {
-    selected: false
+    selected: false,
+    loaded: 0
   }
 
   setSelected = (s) => {
     this.setState({ selected: s ? s : null })
   }
 
+  setLoading = () => {
+    this.setState({ loaded: this.state.loaded + 1 })
+  }
+
   render() {
-    const { selected } = this.state
+    const { selected, loaded } = this.state
+    console.log(loaded)
     return (
       <div className='p-cont'> 
 
@@ -30,18 +36,23 @@ class Projects extends React.Component {
         <div>
           <MatchUs 
             selected={selected} 
+            setLoading={this.setLoading}
             setSelected={this.setSelected}/>
           <Nosedive 
             selected={selected} 
+            setLoading={this.setLoading}
             setSelected={this.setSelected}/>
           <MoviRate 
             selected={selected} 
+            setLoading={this.setLoading}
             setSelected={this.setSelected}/>
           <Snake 
             selected={selected} 
+            setLoading={this.setLoading}
             setSelected={this.setSelected}/>
           <SpotMe 
             selected={selected} 
+            setLoading={this.setLoading}
             setSelected={this.setSelected}/>
         </div>   
       </div>

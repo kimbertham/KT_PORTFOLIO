@@ -29,13 +29,14 @@ const SpotMe = ({ selected, setSelected }) => {
 
         <div className='p-divide'/>
 
-        {selected === 'Spotme' ?
-          <video src={video} preload="auto"
-            className='p-select' autoPlay muted  onMouseLeave={setSelected}/>
-          :
-          <img src={img} className='p-mov' alt='video'
-            onMouseEnter={() => setSelected('Spotme')}/>
-        }
+        <video src={video} preload="auto"
+          className={selected === 'Spotme' ? 'p-select' : 'display-none'} 
+          autoPlay muted  onMouseLeave={setSelected}/>
+          
+        <img src={img} alt='img'
+          className={selected !== 'Spotme' ? 'p-mov' : 'display-none'} 
+          onMouseEnter={() => setSelected('Spotme')}/>
+
       </div>
     </Slide>
   )

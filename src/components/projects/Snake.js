@@ -33,13 +33,13 @@ const Snake = ({ selected, setSelected }) => {
 
         <div className='p-divide'/>
 
-        {selected === 'Snake' ?
-          <video src={video} preload="auto"
-            className='p-select' autoPlay muted  onMouseLeave={setSelected}/>
-          :
-          <img src={img} className='p-mov' alt='video'
-            onMouseEnter={() => setSelected('Snake')}/>
-        }
+        <video src={video} preload="auto"
+          className={selected === 'Snake' ? 'p-select' : 'display-none'} 
+          autoPlay muted  onMouseLeave={setSelected}/>
+          
+        <img src={img} alt='img'
+          className={selected !== 'Snake' ? 'p-mov' : 'display-none'} 
+          onMouseEnter={() => setSelected('Snake')}/>
 
       </div>
     </Slide>
