@@ -39,7 +39,7 @@ const Nosedive = ({ selected, setSelected }) => {
           <div className='p-divide'/>
 
           {selected === 'Nosedive' ?
-            <video src={video} 
+            <video src={video} preload="auto"
               className='p-select' autoPlay muted  onMouseLeave={setSelected}/>
             :
             <img src={img} className='p-mov' alt='img'

@@ -36,7 +36,7 @@ const MoviRate = ({ selected, setSelected }) =>  {
         <div className='p-divide'/>
 
         {selected === 'Match' ?
-          <video src={video} 
+          <video src={video}  preload="auto"
             className='p-select' autoPlay muted  onMouseLeave={setSelected}/>
           :
           <img src={img} className='p-mov' alt='img'

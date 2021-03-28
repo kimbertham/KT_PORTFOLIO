@@ -30,7 +30,7 @@ const SpotMe = ({ selected, setSelected }) => {
         <div className='p-divide'/>
 
         {selected === 'Spotme' ?
-          <video src={video} 
+          <video src={video} preload="auto"
             className='p-select' autoPlay muted  onMouseLeave={setSelected}/>
           :
           <img src={img} className='p-mov' alt='video'
