@@ -2,16 +2,17 @@ import React from 'react'
 import landscape from '../styles/assets/landscape.jpg'
 import { Parallax } from 'react-scroll-parallax'
 
-const About = ({ section }) => {
+const safari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor) ? 'safari' : null
+
+const Banner = ({ section }) => {
 
   return (
-    <div className='index b-section'>
-
+    <div className={safari ? 'safari b-section' : 'other b-section'}>
       <div className='bg-cont'>
         <div style={{ backgroundImage: `url(${landscape})` }} className='bg-img' />
       </div>
-      <div className='spinner' />
-      <div className='spinner-left' /> 
+      <div className='spinner'></div>
+      <div className='spinner-left'></div> 
 
 
       <Parallax className="custom-class" y={[40, -40]} tagOuter="figure">
@@ -27,7 +28,7 @@ const About = ({ section }) => {
           </div>
 
           <div className='content'>
-            <h3> HELLO, I&apos;M</h3>
+            <h3> HELLO,I&apos;M</h3>
             <h1 className='name'>KIMBERLEY&nbsp;THAM.</h1>
             <h2>FULL STACK WEV DEVELOPER</h2>
           </div>
@@ -44,4 +45,4 @@ const About = ({ section }) => {
   )
 }
 
-export default About
+export default Banner

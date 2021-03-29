@@ -34,7 +34,7 @@ const Matchus = ({ selected, setSelected }) => {
 
         <div className='p-divide'/>
 
-        <video src={video} preload="auto"
+        <video src={video} preload="auto" controls
           className={selected === 'MoviRate' ? 'p-select' : 'display-none'} 
           autoPlay muted  onMouseLeave={setSelected}/>
           

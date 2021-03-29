@@ -60,30 +60,47 @@
     }
   }
 
-  
+
   .spinner {
-    margin-top: 17%;
+    @extend .absolute;
     width: 95vw;
     height: 20vh;
+    opacity: 0.4;
     border-radius: 50%;
-    position: absolute;
     animation: pulse 1000ms infinite; 
     animation-timing-function: ease-in-out; 
-    opacity: 0.4;
+    border-bottom : 2px solid rgb(209, 45, 45); 
   }
+
   .spinner-left {
-    margin-top: 6%;
-    margin-right: 50%;
+    @extend .spinner;
     width: 45vw;
     height: 5vh;
-    border-radius: 50%;
-    position: absolute;
     border-top-right-radius: 25px;
     animation: pulse 2500ms infinite;
-    animation-timing-function: ease-in-out; 
 
-    opacity: 0.4;
   }
+  
+  .other{
+    .spinner {
+      margin-top: 17%;
+    }
+    .spinner-left{
+      margin-top: 6%;
+      margin-right: 50%;
+    }
+  }
+  
+  .safari {
+    .spinner {
+      margin-top: 9%;
+    }
+    .spinner-left{
+      margin: 3% 0 0 3vw;
+      left: 0;
+    }
+  }
+
   @keyframes pulse {
     0%{
       border-bottom: 1px solid rgb(162, 162, 162);
@@ -97,4 +114,3 @@
       transform: skew(50deg);
     }
   }
-  
