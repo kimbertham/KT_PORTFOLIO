@@ -8,7 +8,7 @@ import logo from '../../styles/assets/projects/movi-rate.jpg'
 
 import Slide from 'react-reveal/Slide'
 
-const MoviRate = ({ selected, setSelected, setLoading }) =>  {
+const MoviRate = ({ selected, setSelected }) =>  {
 
   return (
     <Slide up>
@@ -36,7 +36,7 @@ const MoviRate = ({ selected, setSelected, setLoading }) =>  {
         <div className='p-divide'/>
 
       
-        <video src={video}  preload="auto" muted 
+        <video src={video}  preload="auto" muted controls
           className={selected === 'Match' ? 'p-select' : 'display-none'} 
           onMouseOver={e => e.target.play()}
           onMouseLeave={e =>{

@@ -39,7 +39,7 @@ const Nosedive = ({ selected, setSelected }) => {
           <div className='p-divide'/>
 
 
-          <video src={video} preload="auto" muted 
+          <video src={video} preload="auto" muted controls
             className={selected === 'Nosedive' ? 'p-select' : 'display-none'} 
             onMouseOver={e => e.target.play()}
             onMouseLeave={e =>{
