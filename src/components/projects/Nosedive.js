@@ -39,9 +39,13 @@ const Nosedive = ({ selected, setSelected }) => {
           <div className='p-divide'/>
 
 
-          <video src={video} preload="auto"
+          <video src={video} preload="auto" muted 
             className={selected === 'Nosedive' ? 'p-select' : 'display-none'} 
-            autoPlay muted  onMouseLeave={setSelected}/>
+            onMouseOver={e => e.target.play()}
+            onMouseLeave={e =>{
+              e.target.pause()
+              setSelected()
+            }}/>
           
           <img src={img} alt='img'
             className={selected !== 'Nosedive' ? 'p-mov' : 'display-none'} 

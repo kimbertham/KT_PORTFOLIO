@@ -20,7 +20,7 @@ const Matchus = ({ selected, setSelected }) => {
           <p>A dating website that lets couples swipe for matches on food, activities and food locations similar to tinder. Also allows users to keep track of dates with calendar and map sections, send love notes, add items to wishlists and generate date plans based on matches or randomly.
           </p>
           <br/>
-          <p> - Javascript, ReactJS, dPython, Django, PostgreSQL.</p>
+          <p> - Javascript, ReactJS, Python, Django, PostgreSQL.</p>
           <br/>
           <div className='flex'>
             <a href="https://github.com/kimbertham/MATCH_US_PROJ">
@@ -34,12 +34,13 @@ const Matchus = ({ selected, setSelected }) => {
 
         <div className='p-divide'/>
 
-        <img src='https://i.imgur.com/s40DynM.gif' 
-          // preload="auto" controls
+        <video src={video} preload="auto" muted
           className={selected === 'MoviRate' ? 'p-select' : 'display-none'} 
-          // autoPlay muted  
-          onMouseLeave={setSelected}
-        />
+          onMouseOver={e => e.target.play()}
+          onMouseLeave={e=>{
+            e.target.pause()
+            setSelected()
+          }}/>
           
         <img src={img} alt='img'
           className={selected !== 'MoviRate' ? 'p-mov' : 'display-none'} 

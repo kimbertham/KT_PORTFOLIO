@@ -36,15 +36,13 @@ const MoviRate = ({ selected, setSelected, setLoading }) =>  {
         <div className='p-divide'/>
 
       
-        <video src={video}  preload="auto"  autoPlay muted 
-          onLoadStart={() => {
-            console.log('...I am loading...')
-          }}
-          onLoadedData={() => {
-            console.log('Data is loaded!')
-          }}
+        <video src={video}  preload="auto" muted 
           className={selected === 'Match' ? 'p-select' : 'display-none'} 
-          onMouseLeave={setSelected}/>
+          onMouseOver={e => e.target.play()}
+          onMouseLeave={e =>{
+            e.target.pause()
+            setSelected()
+          }}/>
           
         <img className={selected !== 'Match' ? 'p-mov' : 'display-none'} 
           src={img} alt='img'
