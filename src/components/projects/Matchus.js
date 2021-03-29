@@ -20,7 +20,7 @@ const Matchus = ({ selected, setSelected }) => {
           <p>A dating website that lets couples swipe for matches on food, activities and food locations similar to tinder. Also allows users to keep track of dates with calendar and map sections, send love notes, add items to wishlists and generate date plans based on matches or randomly.
           </p>
           <br/>
-          <p> - Javascript, ReactJS, Python, Django, PostgreSQL.</p>
+          <p> - Javascript, ReactJS, dPython, Django, PostgreSQL.</p>
           <br/>
           <div className='flex'>
             <a href="https://github.com/kimbertham/MATCH_US_PROJ">
