@@ -41,7 +41,7 @@ const Nosedive = ({ selected, setSelected }) => {
 
           <video src={video} preload="auto" muted controls
             className={selected === 'Nosedive' ? 'p-select' : 'display-none'} 
-            onMouseOver={e => e.target.play()}
+            autoPlay
             onMouseLeave={e =>{
               e.target.pause()
               setSelected()

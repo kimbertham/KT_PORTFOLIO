@@ -36,7 +36,7 @@ const Matchus = ({ selected, setSelected }) => {
 
         <video src={video} preload="auto" muted controls
           className={selected === 'MoviRate' ? 'p-select' : 'display-none'} 
-          onMouseOver={e => e.target.play()}
+          autoPlay
           onMouseLeave={e=>{
             e.target.pause()
             setSelected()
