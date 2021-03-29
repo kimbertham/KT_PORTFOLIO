@@ -34,13 +34,15 @@ const Matchus = ({ selected, setSelected }) => {
 
         <div className='p-divide'/>
 
-        <video src={video} preload="auto" muted controls
+        <video src={video} preload="auto" muted controls autoPlay
           className={selected === 'MoviRate' ? 'p-select' : 'display-none'} 
-          autoPlay
+          onMouseOver={e => e.target.play()}
           onMouseLeave={e=>{
             e.target.pause()
             setSelected()
           }}/>
+
+
 
         <img src={img} alt='img'
           className={selected !== 'MoviRate' ? 'p-mov' : 'display-none'} 

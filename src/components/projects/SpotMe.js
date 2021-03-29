@@ -29,9 +29,9 @@ const SpotMe = ({ selected, setSelected }) => {
 
         <div className='p-divide'/>
 
-        <video src={video} preload="auto" muted controls
+        <video src={video} preload="auto" muted controls autoPlay
           className={selected === 'Spotme' ? 'p-select' : 'display-none'} 
-          autoPlay
+          onMouseOver={e => e.target.play()}
           onMouseLeave={e =>{
             e.target.pause()
             setSelected()
