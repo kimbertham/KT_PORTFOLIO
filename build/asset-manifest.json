@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.9ac94a56.chunk.css",
-    "main.js": "/static/js/main.85aaa611.chunk.js",
-    "main.js.map": "/static/js/main.85aaa611.chunk.js.map",
+    "main.js": "/static/js/main.517e4058.chunk.js",
+    "main.js.map": "/static/js/main.517e4058.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ceaf4b5f.js",
     "runtime-main.js.map": "/static/js/runtime-main.ceaf4b5f.js.map",
     "static/js/2.b6f44299.chunk.js": "/static/js/2.b6f44299.chunk.js",
     "static/js/2.b6f44299.chunk.js.map": "/static/js/2.b6f44299.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a20e375ee834efeee82fdf2d04a35926.js": "/precache-manifest.a20e375ee834efeee82fdf2d04a35926.js",
+    "precache-manifest.6415c238a5bade5bf01cd82eed9ca17d.js": "/precache-manifest.6415c238a5bade5bf01cd82eed9ca17d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.9ac94a56.chunk.css.map": "/static/css/main.9ac94a56.chunk.css.map",
     "static/js/2.b6f44299.chunk.js.LICENSE.txt": "/static/js/2.b6f44299.chunk.js.LICENSE.txt",
@@ -38,13 +38,13 @@
     "static/media/match.mov": "/static/media/match.3f125039.mov",
     "static/media/menu.jpg": "/static/media/menu.05705224.jpg",
     "static/media/mongo.jpg": "/static/media/mongo.2bbfb6aa.jpg",
-    "static/media/movi-rate.mov": "/static/media/movi-rate.09e7f71f.mov",
     "static/media/movi-rate.jpg": "/static/media/movi-rate.09f1c419.jpg",
     "static/media/movi-rate.png": "/static/media/movi-rate.81fa1e95.png",
+    "static/media/movi-rate.mov": "/static/media/movi-rate.efd1c049.mov",
     "static/media/netlify.jpg": "/static/media/netlify.b9822dc9.jpg",
     "static/media/node.jpg": "/static/media/node.188e1060.jpg",
     "static/media/nose.png": "/static/media/nose.9b93070c.png",
-    "static/media/nose.mov": "/static/media/nose.b94c6194.mov",
+    "static/media/nose.mov": "/static/media/nose.d19d43d8.mov",
     "static/media/nose.jpg": "/static/media/nose.ed376e19.jpg",
     "static/media/npm.jpg": "/static/media/npm.fed5c190.jpg",
     "static/media/postgres.jpg": "/static/media/postgres.23778acb.jpg",
@@ -66,6 +66,6 @@
     "static/js/runtime-main.ceaf4b5f.js",
     "static/js/2.b6f44299.chunk.js",
     "static/css/main.9ac94a56.chunk.css",
-    "static/js/main.85aaa611.chunk.js"
+    "static/js/main.517e4058.chunk.js"
   ]
 }
