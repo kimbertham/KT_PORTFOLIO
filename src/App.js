@@ -8,6 +8,7 @@ import Projects from './components/projects/Projcts'
 import Contact from './components/Contact'
 import SideMenu from './components/SideMenu'
 
+
 class App extends React.Component {
   state = {
     side: false

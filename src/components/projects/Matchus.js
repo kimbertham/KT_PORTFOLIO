@@ -40,6 +40,12 @@ const Matchus = ({ selected, setSelected }) => {
           onMouseLeave={e=>{
             e.target.pause()
             setSelected()
+          }}
+          onLoadStart={() => {
+            console.log('...I am loading...')
+          }}
+          onLoadEnd={() => {
+            console.log('Data is loaded!')
           }}/>
 
 
