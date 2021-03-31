@@ -34,7 +34,7 @@ const Matchus = ({ selected, setSelected }) => {
 
         <div className='p-divide'/>
 
-        <video src={video} preload="auto" muted controls autoPlay
+        <video src={video} preload="auto" muted controls 
           className={selected === 'MoviRate' ? 'p-select' : 'display-none'} 
           onMouseOver={e => e.target.play()}
           onMouseLeave={e=>{
@@ -44,7 +44,7 @@ const Matchus = ({ selected, setSelected }) => {
           onLoadStart={() => {
             console.log('...I am loading...')
           }}
-          onLoadEnd={() => {
+          onLoadedData={() => {
             console.log('Data is loaded!')
           }}/>
 
