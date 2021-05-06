@@ -30,7 +30,7 @@ const Banner = ({ section }) => {
           <div className='content'>
             <h3> HELLO,I&apos;M</h3>
             <h1 className='name'>KIMBERLEY&nbsp;THAM.</h1>
-            <h2>FULL STACK WEV DEVELOPER</h2>
+            <h2>FULL STACK BEAVER DEVELOPER</h2>
           </div>
     
           <div className='circle'>
