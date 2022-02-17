@@ -33,7 +33,7 @@ const Banner = ({ section }) => {
             <h2>FULL STACK WEB DEVELOPER</h2>
           </div>
     
-          <div className='circle'>
+          <div className='circle' onClick={() => section('about') }>
             <p className='arrow'> ↓</p>
           </div>
 

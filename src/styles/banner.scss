@@ -60,6 +60,10 @@
     }
   }
 
+  .arrow{
+    cursor: pointer;
+  }
+
 
   .spinner {
     @extend .absolute;

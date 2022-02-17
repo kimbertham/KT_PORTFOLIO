@@ -41,13 +41,7 @@ const Matchus = ({ selected, setSelected }) => {
             e.target.pause()
             setSelected()
           }}
-          onLoadStart={() => {
-            console.log('...I am loading...')
-          }}
-          onLoadedData={() => {
-            console.log('Data is loaded!')
-          }}/>
-
+        />
 
 
         <img src={img} alt='img'
