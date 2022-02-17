@@ -8,4 +8,10 @@ import './styles/projects.scss'
 import './styles/contact.scss'
 import App from './App'
 
+import ReactGA from 'react-ga'
+const TRACKING_ID = 'UA-203452834-1'
+
+ReactGA.initialize(TRACKING_ID)
+
+
 ReactDOM.render(<App />, document.getElementById('root'))
