@@ -21,6 +21,13 @@ class App extends React.Component {
   state = {
     side: false
   }
+  
+
+  componentDidMount() {
+    ReactGA.initialize('UA-203452834-1')
+    ReactGA.pageview('/')
+  }
+  
 
   section = s => {
     this[s].scrollIntoView({ behavior: 'smooth' })  
