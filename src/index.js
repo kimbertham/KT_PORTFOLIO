@@ -12,6 +12,7 @@ import ReactGA from 'react-ga'
 const TRACKING_ID = 'UA-203452834-1'
 
 ReactGA.initialize(TRACKING_ID)
+ReactGA.pageview('/')
 
 
 ReactDOM.render(<App />, document.getElementById('root'))
