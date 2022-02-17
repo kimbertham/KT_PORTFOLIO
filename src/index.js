@@ -13,6 +13,8 @@ const TRACKING_ID = 'UA-203452834-1'
 
 ReactGA.initialize(TRACKING_ID)
 ReactGA.pageview('/')
+ReactGA.pageview(window.location.pathname + window.location.search)
+ReactGA.pageview(window.location.pathname)
 
 
 ReactDOM.render(<App />, document.getElementById('root'))
