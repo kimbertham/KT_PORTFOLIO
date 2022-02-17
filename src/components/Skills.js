@@ -14,7 +14,7 @@ const Skills = () => {
           </div>
           
           <div>
-            <img src={require('../styles/assets/skills/html.jpg')} alt='s-icon' className='s-icon'/>
+            {/* <img src={require('../styles/assets/skills/html.jpg')} alt='s-icon' className='s-icon'/>
             <img src={require('../styles/assets/skills/css.jpg')} alt='icon' className='s-icon'/>
             <img src={require('../styles/assets/skills/sass.jpg')} alt='icon' className='s-icon'/>
             <img src={require('../styles/assets/skills/Js.jpg')} alt='icon' className='s-icon'/>
@@ -35,7 +35,7 @@ const Skills = () => {
             <img src={require('../styles/assets/skills/slack.jpg')} alt='icon' className='s-icon'/>
             <img src={require('../styles/assets/skills/netlify.jpg')} alt='icon' className='s-icon'/>
             <img src={require('../styles/assets/skills/ps.jpg')} alt='icon' className='s-icon'/>
-            <img src={require('../styles/assets/skills/vscode.jpg')} alt='icon' className='s-icon'/>
+            <img src={require('../styles/assets/skills/vscode.jpg')} alt='icon' className='s-icon'/> */}
           </div>
         </div>
       </div>
