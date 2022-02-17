@@ -8,6 +8,14 @@ import Projects from './components/projects/Projcts'
 import Contact from './components/Contact'
 import SideMenu from './components/SideMenu'
 
+import ReactGA from 'react-ga'
+const TRACKING_ID = 'UA-203452834-1'
+
+ReactGA.initialize(TRACKING_ID)
+ReactGA.pageview('/')
+ReactGA.pageview(window.location.pathname + window.location.search)
+ReactGA.pageview(window.location.pathname)
+
 
 class App extends React.Component {
   state = {
