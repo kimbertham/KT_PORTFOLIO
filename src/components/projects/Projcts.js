@@ -4,6 +4,7 @@ import Snake from './Snake'
 import Nosedive from './Nosedive'
 import MatchUs from './Matchus'
 import SpotMe from './SpotMe'
+import Whurdle from './Whurdle'
 import MoviRate from './MovieRate'
 
 class Projects extends React.Component {
@@ -28,6 +29,9 @@ class Projects extends React.Component {
         </div>  
 
         <div>
+          <Whurdle
+            selected={selected} 
+            setSelected={this.setSelected}/>
           <MatchUs 
             selected={selected} 
             setSelected={this.setSelected}/>

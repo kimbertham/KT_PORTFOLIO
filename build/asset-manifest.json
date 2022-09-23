@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad3eb41c.chunk.css",
-    "main.js": "/static/js/main.a6caa4f0.chunk.js",
-    "main.js.map": "/static/js/main.a6caa4f0.chunk.js.map",
+    "main.css": "/static/css/main.b19ce9f2.chunk.css",
+    "main.js": "/static/js/main.92c95fdc.chunk.js",
+    "main.js.map": "/static/js/main.92c95fdc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ceaf4b5f.js",
     "runtime-main.js.map": "/static/js/runtime-main.ceaf4b5f.js.map",
-    "static/js/2.5b859931.chunk.js": "/static/js/2.5b859931.chunk.js",
-    "static/js/2.5b859931.chunk.js.map": "/static/js/2.5b859931.chunk.js.map",
+    "static/js/2.9be89fd1.chunk.js": "/static/js/2.9be89fd1.chunk.js",
+    "static/js/2.9be89fd1.chunk.js.map": "/static/js/2.9be89fd1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8ab89c3ebf7811d8f70482a58627584b.js": "/precache-manifest.8ab89c3ebf7811d8f70482a58627584b.js",
+    "precache-manifest.85ae2fa017c06a4ffeef89f4efd6c1ec.js": "/precache-manifest.85ae2fa017c06a4ffeef89f4efd6c1ec.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.ad3eb41c.chunk.css.map": "/static/css/main.ad3eb41c.chunk.css.map",
-    "static/js/2.5b859931.chunk.js.LICENSE.txt": "/static/js/2.5b859931.chunk.js.LICENSE.txt",
+    "static/css/main.b19ce9f2.chunk.css.map": "/static/css/main.b19ce9f2.chunk.css.map",
+    "static/js/2.9be89fd1.chunk.js.LICENSE.txt": "/static/js/2.9be89fd1.chunk.js.LICENSE.txt",
     "static/media/2.gif": "/static/media/2.f7e6d2d2.gif",
     "static/media/Js.jpg": "/static/media/Js.7d81fe42.jpg",
     "static/media/React.jpg": "/static/media/React.380f0da9.jpg",
@@ -61,12 +61,15 @@
     "static/media/spotme.jpg": "/static/media/spotme.8c483a47.jpg",
     "static/media/spotme.mov": "/static/media/spotme.f6b3fcd1.mov",
     "static/media/ts.jpg": "/static/media/ts.b37fcd3d.jpg",
-    "static/media/webflow.jpg": "/static/media/webflow.06a056e6.jpg"
+    "static/media/webflow.jpg": "/static/media/webflow.06a056e6.jpg",
+    "static/media/whurd.png": "/static/media/whurd.2cec0cab.png",
+    "static/media/whurdle.mov": "/static/media/whurdle.5946bd12.mov",
+    "static/media/wordle.jpg": "/static/media/wordle.9d34b168.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ceaf4b5f.js",
-    "static/js/2.5b859931.chunk.js",
-    "static/css/main.ad3eb41c.chunk.css",
-    "static/js/main.a6caa4f0.chunk.js"
+    "static/js/2.9be89fd1.chunk.js",
+    "static/css/main.b19ce9f2.chunk.css",
+    "static/js/main.92c95fdc.chunk.js"
   ]
 }
