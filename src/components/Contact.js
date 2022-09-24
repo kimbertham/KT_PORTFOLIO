@@ -25,7 +25,7 @@ render() {
     <div className='c-cont'>
       <div className='c-content'>
         
-        <div className='relative center'>
+        <div className='relative center contact-top'>
           <div className='flex'>
             <a href='https://github.com/kimbertham'> 
               <div className='link-cont'>

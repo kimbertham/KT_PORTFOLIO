@@ -3,7 +3,10 @@
 
 
 .p-title {
-  margin-left: 55vw;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+width: 90%;
   opacity: 0.3;
 
   h1 {

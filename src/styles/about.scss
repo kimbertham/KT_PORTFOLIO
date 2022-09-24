@@ -1,9 +1,12 @@
 @import './main.scss';
 
+
+
+
 .a-cont {
   @extend .flex , .relative;
-  padding: 0 3vw;
-  
+  flex-direction: row !important;
+  padding: 0 3vw; 
 }
 
 
@@ -13,7 +16,7 @@
 
   .a-img {
     @extend .absolute;
-    width: 40vw;
+    width: 35vw;
   }
 
   .a-img1 {

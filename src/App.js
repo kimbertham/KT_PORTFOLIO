@@ -4,7 +4,7 @@ import { ParallaxProvider } from 'react-scroll-parallax'
 import Banner from './components/Banner'
 import About from './components/About'
 import Skills from './components/Skills'
-import Projects from './components/projects/Projcts'
+import Projects from './components/Projcts'
 import Contact from './components/Contact'
 import SideMenu from './components/SideMenu'
 

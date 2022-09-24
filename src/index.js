@@ -6,6 +6,7 @@ import './styles/banner.scss'
 import './styles/skills.scss'
 import './styles/projects.scss'
 import './styles/contact.scss'
+import './styles/resp.scss'
 import App from './App'
 
 import ReactGA from 'react-ga'

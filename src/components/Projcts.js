@@ -1,11 +1,11 @@
 import React from 'react'  
 import Fade from 'react-reveal/Fade'
-import Snake from './Snake'
-import Nosedive from './Nosedive'
-import MatchUs from './Matchus'
-import SpotMe from './SpotMe'
-import Whurdle from './Whurdle'
-import MoviRate from './MovieRate'
+import Snake from './projects/Snake'
+import Nosedive from './projects/Nosedive'
+import MatchUs from './projects/Matchus'
+import SpotMe from './projects/SpotMe'
+import Whurdle from './projects/Whurdle'
+import MoviRate from './projects/MovieRate'
 
 class Projects extends React.Component {
   state = {

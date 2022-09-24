@@ -1,0 +1,126 @@
+@import './main.scss';
+
+
+.centerM {
+  @extend .center;
+}
+
+@media screen and (max-width: 800px) {
+
+  .side-menu, .circle, .a-line, .a-img1, .spinner, .p-divide {
+    display: none;
+  }
+
+
+  //banner -------------
+
+  .links {
+  img {width: 15px;}
+  }
+
+  //------------about ------------------
+
+  .a-cont{
+  @extend .centerM;
+  height: 100vh;
+  flex-direction: column !important;
+
+    .a-desc{
+      margin: 30px 0;
+      text-align: center;
+      width: 80%;
+    }
+  
+    .title-cont {
+      .title{
+      transform: none;
+      margin: 20px 0  0 0;
+      }
+    }
+
+    .img-cont{
+      margin: 10px;
+    .a-img {
+      width: 80%;
+      position: relative;
+    }
+  }
+}
+
+  //------skills ---------
+
+  .skills-cont {
+    justify-content: flex-start;
+    height: 80vh;
+
+    .skills {
+    .s-icon {
+      width: 20%;
+    }
+    }
+  }
+  //-----------project-----------
+
+  .p-cont {
+
+    .p-title {
+      text-align: center;
+      margin: 0 20px ;
+      h1{
+      font-size: 30px;
+      margin: 0;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+
+    .p-field {
+      justify-content:flex-start;
+      flex-direction: column-reverse;
+      margin: 50px;
+      text-align: center;
+
+      .p-content {
+        width: 100%;
+        height: auto;
+        margin-top: 40px ;
+      }
+
+      .p-mov, .p-select {
+        width: 90%;
+      }
+    }
+  }
+
+
+  //---------contact-------------
+
+  .c-cont {
+
+    .link-cont{
+      margin: 30px;
+      .c-link {
+        width: 30px;
+        margin: 0;
+      }
+    }
+  
+    .c-content {
+      display: block;
+      margin: 0;
+      .contact-top {
+        flex-direction: column-reverse;
+      }
+    }
+
+    .c-form {
+      @extend .centerM;
+      width: auto;
+    * { 
+      width: 80%;
+      margin-top: 10px;
+      }
+    }
+  }
+}
