@@ -90,6 +90,11 @@
       .p-mov, .p-select {
         width: 90%;
       }
+
+      .p-icon {
+        width:20px;
+        height:20px;
+      }
     }
   }
 
@@ -123,4 +128,12 @@
       }
     }
   }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .skills-cont{
+    height: 100vh;
+  }
+
 }
