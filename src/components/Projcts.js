@@ -6,6 +6,8 @@ import MatchUs from './projects/Matchus'
 import SpotMe from './projects/SpotMe'
 import Whurdle from './projects/Whurdle'
 import MoviRate from './projects/MovieRate'
+import DayPlanner from './projects/Dayplanner'
+
 
 class Projects extends React.Component {
   state = {
@@ -29,6 +31,9 @@ class Projects extends React.Component {
         </div>  
 
         <div>
+          <DayPlanner
+            selected={selected} 
+            setSelected={this.setSelected}/>
           <Whurdle
             selected={selected} 
             setSelected={this.setSelected}/>
