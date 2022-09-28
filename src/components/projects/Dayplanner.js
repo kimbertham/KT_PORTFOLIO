@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import github from '../../styles/assets/git-vector.jpg'
 import link from '../../styles/assets/link.jpg'
