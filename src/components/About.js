@@ -25,7 +25,7 @@ const About = () => {
         <div className='a-desc'>
           <div className='a-line'/>
           <h1> Most people call me Kim</h1>
-          <p>In having decided to pursue my interest in coding and programming I enrolled myself into a three month intensive software engineering course at General Assembly, London. During this time was able to develop a real understanding of web development fundamentals, which only worked to further excitement about the constantly evolving world of tech. I aspire to further expand my coding knowledge and make dedicated contributions to the best of my ability.</p>
+          <p>In having decided to pursue my interest in coding and programming I enrolled myself into a three month intensive software engineering course at General Assembly, London. During this time was able to develop a real understanding of web development fundamentals, which only worked to further excitement about the constantly evolving world of tech. Expaning these skills working at a small start up, I was exposed to a much larger range of software and tech and develop these skills in a professional enviroment. I aspire to further expand my coding knowledge and make dedicated contributions to the best of my ability.</p>
           <br/>
           <p>Feel free to drop drop me and email or reach out to me on other platforms, I&apos;d love to hear from you!</p>
           <div className='a-line'/>

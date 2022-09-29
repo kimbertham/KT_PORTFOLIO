@@ -18,7 +18,7 @@ const Whurdle = ({ selected, setSelected }) => {
             <h1> whurdle </h1>
           </div>
           <p>Recreation of nytimes game worlde with two player capability,
-            Users choose 5 letter words for each other to guess.
+            Users choose 5 letter words for each other to guess. Uses dictionary and word APIs to check for random words and spellings. 
           </p>
           <br/>
           <p> - TypeScript, ReactJS, Node.Js, MongoDb, Socket.io</p>

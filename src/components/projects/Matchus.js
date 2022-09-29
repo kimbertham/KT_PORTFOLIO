@@ -17,7 +17,7 @@ const Matchus = ({ selected, setSelected }) => {
             <img src={logo} className='logo' alt='logo'/>
             <h1> MatchUs</h1>
           </div>
-          <p>A dating website that lets couples swipe for matches on food, activities and food locations similar to tinder. Also allows users to keep track of dates with calendar and map sections, send love notes, add items to wishlists and generate date plans based on matches or randomly.
+          <p>A dating website that lets couples swipe for matches on movies, activities and food locations similar to tinder. Also allows users to keep track of dates with calendar and map sections, send love notes, add items to wishlists and generate date plans based on matches or randomly.
           </p>
           <br/>
           <p> - Javascript, ReactJS, Python, Django, PostgreSQL.</p>
