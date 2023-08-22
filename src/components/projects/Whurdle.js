@@ -27,7 +27,7 @@ const Whurdle = ({ selected, setSelected }) => {
             <a href="https://github.com/kimbertham/WORDLE">
               <img src={github} alt='github' className='p-icon'/> 
             </a>
-            <a href="https://protected-crag-63785.herokuapp.com/"> 
+            <a href="https://whurdleapp.onrender.com/"> 
               <img src={link} alt='link' className='p-icon'/>
             </a>
           </div>
