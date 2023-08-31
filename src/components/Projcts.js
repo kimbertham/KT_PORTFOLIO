@@ -27,6 +27,7 @@ class Projects extends React.Component {
           <Fade left>
             <h1>PROJECTS.</h1> 
             <p> → Hover over images to play</p>
+            <small> Links may take a minute to load</small>
           </Fade> 
         </div>  
 
