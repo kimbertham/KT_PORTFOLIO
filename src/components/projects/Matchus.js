@@ -26,7 +26,7 @@ const Matchus = ({ selected, setSelected }) => {
             <a href="https://github.com/kimbertham/MATCH_US_PROJ">
               <img src={github} alt='github' className='p-icon'/> 
             </a>
-            <a href="https://match-uss.herokuapp.com/login"> 
+            <a href="https://matchus.onrender.com/login"> 
               <img src={link} alt='link' className='p-icon'/>
             </a>
           </div>
